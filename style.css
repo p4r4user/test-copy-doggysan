@@ -1,0 +1,91 @@
+* {
+    background-color: #ead9b6;
+    font-family: "JetBrains Mono";
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.content {
+    max-width: 768px;
+}
+
+.top-name {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+}
+
+.link-grid {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.link-grid a {
+    display: inline-block;
+}
+.link-grid img {
+    width: 48px;
+    height: 48px;
+    margin-left:8px;
+    margin-right:8px;
+}
+.link-grid .round{
+    border-radius: 50%;
+    border: 3px solid #000;
+}
+.link-grid img:hover {
+    transform: scale(1.2);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+
+.main-photo-container{
+    text-align: center;
+}
+.main-photo {
+    width: 733px;
+    height: 548px;
+    border-radius: 2%;
+    border: 2px solid red;
+}
+
+
+.story-block {
+    text-align: center;
+}
+.story-block .title {
+    padding-top:36px;
+    padding-bottom: 24px;
+    font-size:20px;
+    display: flex;
+    justify-content: center;
+}
+.story-block .story-image {
+    width: 704px;
+    height: 704px;
+    border-radius: 1%;
+}
+.story-block .story-text{
+    display: flex;
+    text-align: left;
+    font-size: 18px;
+    max-width: 704px; /* Обмежує ширину текстового блоку до ширини зображення */
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
